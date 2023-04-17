@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    }
+    /*
+    .sc{
+        width: 1400px;
+        height: auto;
+        margin: auto;
+        color: #dfdf14;
+        position: relative;
+        right: -1px;
+        top: -40px;
+    background-color: blueviolet;
+   }
+    .sc h1{
+        font-family: 'Times New Roman';
+        font-size: 50px;
+        padding: 20px;
+        margin-top: 9%;
+        letter-spacing: 2px;
+        margin-top: 116px;
+        display: flex;
+        justify-content:center;
+    
+}
+    .sc_fr label{
+        width: 600px;
+        height: auto;
+        margin: auto;
+        color: #dfdf14;
+        position: relative;
+        right: 100px;
+        top: -40px;
+    right: 20px;
+    background-color: blueviolet;
+    font-family: 'Times New Roman';
+        font-size: 25px;
+        padding-left: 20px;
+        margin-top: 9%;
+        letter-spacing: 2px;
+        margin-top: 116px;
+       }
+       */
+.sc{
+            padding: 0 112px;
+            padding-top: 75px;
+            }
+ .sc h1{
+   text-align: center;
+   padding: 37px 0px;  
+   font-size: 35px;
+} 
+.sc label{
+font-weight: bold;
+font-size: 25px;}
+.sc input{
+width: 600px;}
+#url-input{
+    border-radius: 4px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;} 
+
+.sc_fr{
+padding-bottom: 10px;}
+
+.sc_fr form div{
+    padding: 10px 0;
+    }
+
+.sc button{
+cursor: pointer;}
+
+.sc_bt{
+background-color: rgb(12, 128, 89);
+color: aliceblue;
+padding: 10px;
+border-radius: 10px;
+flex-direction: column;
+margin-top: 10px;
+font-weight: bold;
+}
+
+.sc_bt:hover{
+    background-color: rgb(239, 200, 44);
+    color: rgb(4, 13, 20);
+}
