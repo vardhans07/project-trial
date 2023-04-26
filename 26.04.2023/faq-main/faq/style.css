@@ -1,0 +1,343 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    position: sticky;
+    top: 0;
+    background-color: maroon;
+    width:100%;
+    height:80px;
+}
+
+.logo{
+    height: 60px;
+    width: 60px;
+    display:inline; 
+    margin-left: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 32px; 
+    vertical-align:bottom; 
+    margin-right: 700px; 
+    color: orange; 
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-weight: 900;
+    margin-left: 10px;
+}
+
+.a{
+    margin-right: 60px;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 22px;
+    cursor: pointer;
+    font-weight: 700;
+    color: white;
+}
+
+.container-image{
+    width: 100%;
+    height:fit-content;
+    border: 1px solid black;
+}
+
+.image{
+    display: block;
+    
+    width: 80%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;    
+    margin-top: 60px; 
+    border: 5px solid maroon;   
+}
+
+.content{
+    width: 80%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-content{
+    width: 70%;
+    height: fit-content;
+    border-right: 3px solid maroon;
+    border-top: 3px solid maroon;
+    margin: 30px 8px 30px 0;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+
+h1{
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.search{
+    width: 30%;
+    border-left: 3px solid maroon;
+    border-top: 3px solid maroon;
+    margin-top: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.question{
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-top: 55px;
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+.answer{
+    font-weight: 300;
+    font-size: 17px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+ul{
+    margin-left: 25px;
+}
+
+.search-bar{
+    text-align: center;
+    margin: 100px 10px 80px 10px;
+}
+
+.bar{
+    height: 36px;
+    width: 260px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.icon{
+    margin-left: -14px;
+    height: 40px;
+    vertical-align: top;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.icon-img{
+    height: 39.5px;
+    width: 40px;
+}
+
+.form{
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid orange;
+    border-radius: 10px;
+    margin: 0 0 0 30px;
+    padding: 0 10px 0 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: orange;
+}
+
+.head-1{
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.fname, .lname{
+    width: 135px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+}
+
+.email{
+    font-family: 'Josefin Sans', sans-serif;
+    width: 285px;
+    font-weight: 300;
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+}
+
+.zip, .pno{
+    font-family: 'Josefin Sans', sans-serif;
+    width: 135px;
+    font-weight: 300;
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.message{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.submit{
+    padding: 8px 40px 8px 40px;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 7px;
+    background-color: maroon;
+    border: 1px solid maroon;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.submit:active{
+    opacity: 0.8;
+}
+
+.reset{
+    padding: 8px 40px 8px 40px;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 7px;
+    border: 1px solid rgb(108, 117, 125);
+    color: rgb(108, 117, 125);
+    background-color: white;
+    font-weight: 300;
+    font-size: 15px;
+    transition: background-color 0.15s ;
+}
+
+.reset:hover{
+    color: white;
+    background-color:  rgb(108, 117, 125);
+    border: 2px white;
+}
+
+.reset:active{
+    box-shadow: 0 0 3px rgb(0,0,0);
+}
+
+.part{
+    border: 2px solid maroon;
+    margin: 60px 0 30px 20px;
+}
+
+.comment{
+    text-align: center;
+    border: 1px solid rgb(108, 117, 125);
+    margin: 60px 0 0 25px;
+    background-color: rgb(108, 117, 125);
+}
+
+.com{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px 0 15px 0;
+}
+
+.c-bar{
+    display: block;
+    width: 270px;
+    height: 40px;
+    margin: 5px 15px 15px 15px;
+    border-radius: 10px;
+    padding: 5px 15px 0 15px;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 350;
+}
+
+.post{
+    width: 70px;
+    height: 26px;
+    margin-bottom: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.clear{
+    width: 70px;
+    height: 26px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container-contact{
+    background-color: black;
+    width: 100%;
+    height: fit-content;
+}
+
+.contact{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    text-align: center;
+    font-family: 'Unbounded', cursive;
+    font-weight: 500;
+}
+
+.us{
+    margin-left: 15px;
+}
+
+.container-us{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    color: white;
+    font-family: 'Unbounded', cursive;
+    text-align: center;
+}
+
+.address{
+    width: 50%;
+    padding: 50px 50px 10px 50px;
+    margin-bottom: 20px;
+    border-right: 3px solid white;
+}
+
+.reach-us{
+    margin-bottom: 40px;
+    font-size: 22px;
+}
+
+.add{
+    margin-bottom: 30px;
+    font-weight: 100;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.connect{
+    width: 50%;
+    padding: 50px 50px 10px 50px;
+}
+
+.join{
+    margin-bottom: 40px;
+    font-size: 22px;
+}
+
+.media{
+    width: 80px;
+    height: 80px;
+    display: inline;
+    margin-right: 20px;
+    cursor: pointer;
+}
